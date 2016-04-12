@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,vietnamese);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@font-face {
+    font-family: OpenSan-ExtraBold;
+    src: url(fonts/OpenSans-ExtraBold.woff);
+}
+*{
+	margin:0;
+	padding:0;
+}
+a:hover, a:focus, a:active{
+	outline:0;
+}
+.header{	
+	width:100%;
+	float:left;
+	background:#76c7c0;
+	
+}
+.header .container {
+	padding: 16px 0;
+}
+.header h1{
+	margin:0;
+}
+.header	h1 a{
+		color:#fff;
+		font-size:30px;
+		font-family: 'Open Sans', sans-serif;
+		text-transform:uppercase;
+		text-decoration:none;	
+}
+.header	h1 a span{
+	font-size:25px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform:none;
+	padding-left:10px;
+}
+.menuA1 li a{
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+	padding:3px 15px;
+	margin-top:10px;
+	border: 1px solid rgba( 0, 0, 0, 0);
+	border-radius: 4px;
+	font-size:13px;
+}
+.fa-angle-down{
+	padding-right:8px;
+}
+.menuA1 li:first-child a{
+	background:#62a29e;
+	box-shadow: 0px 3px #528b86;
+}
+.menuA1 li a:hover{
+	box-shadow: 0px 3px #e2534b;
+	background:#e5655d;
+}
+.header .col-md-1{
+	margin-top:10px;
+	
+}
+.search{
+	width:0;
+	transition:0.6s;
+	border:none;
+}
+.search:hover{ width:48px;}
+.clic{
+	border:none;
+	background:rgba( 0, 0, 0, 0);
+	margin-top:6px;
+	color:#fff;
+}
+/* slide */
+.slide{
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+.item{
+	position:relative;
+}
+.slogen{
+	position:absolute;
+	top:30%;
+	left:40%;
+}
